@@ -85,11 +85,6 @@ export const resourceList: Record<string, string>[] = [
     description: "Graphing community projects for adventurers to explore",
     url: "https://loot-bibliotheca-client.vercel.app/",
   },
-  {
-    name: "Encyclopedia (for Adventurers)",
-    description: "Visual Guide to Loot Derivatives",
-    url: "https://accesspegasus.notion.site/An-Encyclopedia-for-Adventurers-6f0c0e04fe154fed9a2ad2482bd41cc3",
-  },
 ];
 
 // Loot guilds
@@ -238,21 +233,6 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
   },
   {
-    name: "Craft Materials",
-    description: "Loot Craft is a brand new mechanism of resources 💎 and craft ⛏",
-    url: "https://loot-craft.com/",
-  },
-  {
-    name: "Divine Stats",
-    description: "Every adventurer needs some stats",
-    url: "https://etherscan.io/address/0xf5dF2C0201Fd06fc5A387cCcBD70a1093AcB1455#writeContract",
-  },
-  {
-    name: "Doggos (for $DOG Owners)",
-    description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
-    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
-  },
-  {
     name: "Emoji Loot",
     description: "Emojis for your lifestyle.",
     url: "https://emloot.xyz"
@@ -343,11 +323,6 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
   },
   {
-    name: "Loot Land",
-    description: "Loot Land are parts of the world in Loot metaverse",
-    url: "https://opensea.io/collection/landproject",
-  },
-  {
     name: "Loot Lore",
     description: "Jobs, Race, Religion, and Realms",
     url: "https://etherscan.io/address/0x32E58C6F1FF983924F385cE6aadF0595577beda1#writeContract",
@@ -358,14 +333,9 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/lootofether"
   },
   {
-    name: "LootRock",
-    description: "LootRock is the perfect collision of Loot and EtherRock.",
-    url: "https://opensea.io/collection/ethlootrock"
-  },
-  {
-    name: "LootRock (for Adventurers)",
-    description: "Inspired from EtherRock. Only 100 in existence.",
-    url: "https://opensea.io/collection/lootrock-for-adventurers"
+    name: "LootParty",
+    description: "A randomized group of adventurers generated and stored on chain.",
+    url: "http://lootparty.io",
   },
   {
     name: "Loot Personalities v0.1",
@@ -383,19 +353,9 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://monstersforadventurers.com",
   },
   {
-    name: "Monster Maps",
-    description: "Monsters and their locations on generative maps.",
-    url: "https://twitter.com/monstermap",
-  },
-  {
     name: "Mounts",
     description: "Randomized mounts for adventurers",
     url: "https://etherscan.io/address/0x4e8234d076caeb90604a7e5b6a584ee4eb18490a#writeContract",
-  },
-  {
-    name: "MUDVERSE",
-    description: "MUD the metaverse together with all Loot projects",
-    url: "https://mudverse.org",
   },
   {
     name: "Name",
@@ -438,11 +398,6 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d#writeContract",
   },
   {
-    name: "Runes",
-    description: "Mysterious runes randomly generated and carved on chain. Gift from ancient world!",
-    url: "https://runesmystery.github.io/"
-  },
-  {
     name: "Spells for Looters",
     description: "Spells and Spellbooks for Loot Adventurers.",
     url: "https://opensea.io/collection/spells-for-looters"
@@ -463,11 +418,6 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/SuperLootNFT",
   },
   {
-    name: "Team for Loot",
-    description: "Team of Adventurers to get rarity loot",
-    url: "https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667#writeContract",
-  },
-  {
     name: "The Traveling Musician",
     description: "Travel tunes for loot holders",
     url: "https://etherscan.io/address/0xF7AC82FedA08d0f3E071847250521c1297E1aF9c#writeContract",
@@ -478,13 +428,33 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/treasure-for-loot",
   },
   {
+    name: "LootRock",
+    description: "LootRock is the perfect collision of Loot and EtherRock.",
+    url: "https://opensea.io/collection/ethlootrock"
+  },
+  {
+    name: "LootRock (for Adventurers)",
+    description: "Inspired from EtherRock. Only 100 in existence.",
+    url: "https://opensea.io/collection/lootrock-for-adventurers"
+  },
+  {
+    name: "Monster Maps",
+    description: "Monsters and their locations on generative maps.",
+    url: "https://twitter.com/monstermap",
+  },
+  {
+    name: "Doggos (for $DOG Owners)",
+    description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
+    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract"
+  },
+  {
     name: "Tunes",
     description: "Unique 8bit songs for every Loot holder",
     url: "https://www.loottunes.fun/",
   },
   {
-    name: "Upside Down Loot",
-    description: "The first anti-metaverse built on Ethereum",
-    url: "https://upsidedownloot.com/",
-  },
+    name: "MUDVERSE",
+    description: "MUD the metaverse together with all Loot projects",
+    url: "https://mudverse.org",
+  }
 ];
